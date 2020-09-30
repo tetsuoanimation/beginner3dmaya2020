@@ -21,7 +21,6 @@ Hotbox
 Panel Setup
 ===========
 
-
 **********
 Primitives
 **********
@@ -30,6 +29,18 @@ Primitives
 Object Manipulation
 *******************
 
+*******************
+Main Editor Windows
+*******************
 
-Heading
-=======
+Editor / Viewport
+=================
+
+Outliner
+========
+
+Channelbox
+==========
+
+Attribute Editor
+================
