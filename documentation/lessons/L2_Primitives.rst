@@ -49,6 +49,7 @@ There are 3 ways of creating primitives in Maya:
     | After creating the primitives, you can press 'T' to open a floating window to edit the main parameters of the object. 
 
 As always, you can learn more about primitives, their parameters and usage in the official Autodesk Maya Manual:
+
 * `Primitive Types and Options <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-45D2EAD4-5BCF-42DA-A1AB-EC6EE09FE705>`_
 * `Primitive Creation via menu <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-9819BE57-2C37-4D90-BC61-390C9C51BD79#GUID-9819BE57-2C37-4D90-BC61-390C9C51BD79>`_
 * `Primitive creation via shelf <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C4F6724D-1887-41C5-ADB1-A32FEF47FDD3#GUID-C4F6724D-1887-41C5-ADB1-A32FEF47FDD3>`_
