@@ -4,7 +4,7 @@ Working With Primitives
 The easiest way to create 3D objects are primitives. Primitives are mathematically defined, parametrical objects like
 cubes, spheres, pyramids etc. 
 
-Our goal for this lesson will be creating a futuristic city scene made out of primitives like this.
+For this lesson, you will have to create a futuristic city scene like this example:
 .. image:: ./images/primitiveCity_Comp_v001.png
 
 
