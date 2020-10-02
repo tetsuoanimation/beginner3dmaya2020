@@ -5,8 +5,8 @@ The easiest way to create 3D objects are primitives. Primitives are mathematical
 cubes, spheres, pyramids etc. 
 
 For this lesson, you will have to create a futuristic city scene like this example:
-.. image:: ./images/primitiveCity_Comp_v001.png
 
+.. image:: ./images/primitiveCity_comp_v001.png
 
 ******************
 Primitives in Maya
