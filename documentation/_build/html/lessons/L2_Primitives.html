@@ -33,7 +33,9 @@
         <link rel="index" title="Index"
               href="../genindex.html"/>
         <link rel="search" title="Search" href="../search.html"/>
-    <link rel="top" title="3D Design Basics - WS2020 2020 documentation" href="../index.html"/> 
+    <link rel="top" title="3D Design Basics - WS2020 2020 documentation" href="../index.html"/>
+        <link rel="next" title="Lesson Three" href="lesson3.html"/>
+        <link rel="prev" title="Interface Overview" href="L1_InterfaceQuickstart.html"/> 
 
   
   <script src="../_static/js/modernizr.min.js"></script>
@@ -85,7 +87,17 @@
 <li class="toctree-l1"><a class="reference internal" href="../intro/first_steps.html">First Steps</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Lessons:</span></p>
-<ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="L1_InterfaceQuickstart.html">Interface Overview</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Working With Primitives</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#primitives-in-maya">Primitives in Maya</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creating-primitives">Creating Primitives</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#editing-primitives">Editing Primitives</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#object-manipulation">Object Manipulation</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="lesson3.html">Lesson Three</a></li>
 </ul>
 
@@ -152,8 +164,89 @@
             
   <div class="section" id="working-with-primitives">
 <h1>Working With Primitives<a class="headerlink" href="#working-with-primitives" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="primitives">
-<h2>Primitives<a class="headerlink" href="#primitives" title="Permalink to this headline">¶</a></h2>
+<p>The easiest way to create 3D objects are primitives. Primitives are mathematically defined, parametrical objects like
+cubes, spheres, pyramids etc.</p>
+<div class="section" id="primitives-in-maya">
+<h2>Primitives in Maya<a class="headerlink" href="#primitives-in-maya" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="creating-primitives">
+<h3>Creating Primitives<a class="headerlink" href="#creating-primitives" title="Permalink to this headline">¶</a></h3>
+<p>There are 3 ways of creating primitives in Maya:</p>
+<ol class="arabic">
+<li><dl>
+<dt>The ‘Modeling’ shelf:</dt><dd><img alt="../_images/polyModelingShelfPrimitves.png" src="../_images/polyModelingShelfPrimitves.png" />
+<ol class="arabic simple">
+<li><p>Make sure the ‘Modeling’ shelf is visible. Most icons on this shelf are orange.</p></li>
+<li><p>Click one of the primitives on the left part of the shelf.</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>The main menu bar:</dt><dd><img alt="../_images/createPolyPrimitive.png" src="../_images/createPolyPrimitive.png" />
+<ol class="arabic simple">
+<li><p>In the ‘Modeling’ workspace, go to Create -&gt; Polygon Primitives</p></li>
+<li><p>Choose one of the many available polygon primitives. You will find that there are many more Primitives available than there were in the ‘Modeling’ shelf.</p></li>
+<li><p>Maya will create the new primitives with default parameters at the world center.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You can enable ‘Interactive Creation’ in this menu to edit the primitves dimesions while creating</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>The command line / script editor:</dt><dd><img alt="../_images/createPolyPrimitiveScript.png" src="../_images/createPolyPrimitiveScript.png" />
+<ol class="arabic simple">
+<li><p>Open the script editor by clicking the script editor icon in the bottom right corner</p></li>
+<li><p>Click the ‘+’ button to add a new script tab.</p></li>
+<li><p>In the dialog choose ‘MEL’ to create a mel-script</p></li>
+<li><p>Enter <code class="docutils literal notranslate"><span class="pre">`polyCube</span> <span class="pre">-w</span> <span class="pre">2</span> <span class="pre">-h</span> <span class="pre">2;`</span></code> to create a cube  of width (-w) and height (-h) of 2</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">You can also run this code by entering it in the commandline:</div>
+<div class="line">5. Make sure the commandline mode is set to ‘MEL’</div>
+<div class="line">6. Enter the code in the commandline and press Enter.</div>
+</div>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="line-block">
+<div class="line">After creating the primitives, you can press ‘T’ to open a floating window to edit the main parameters of the object.</div>
+</div>
+</div>
+<p>As always, you can learn more about primitives, their parameters and usage in the official Autodesk Maya Manual:
+* <a class="reference external" href="https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-45D2EAD4-5BCF-42DA-A1AB-EC6EE09FE705">Primitive Types and Options</a>
+* <a class="reference external" href="https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-9819BE57-2C37-4D90-BC61-390C9C51BD79#GUID-9819BE57-2C37-4D90-BC61-390C9C51BD79">Primitive Creation via menu</a>
+* <a class="reference external" href="https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C4F6724D-1887-41C5-ADB1-A32FEF47FDD3#GUID-C4F6724D-1887-41C5-ADB1-A32FEF47FDD3">Primitive creation via shelf</a>
+* <a class="reference external" href="https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-6D21314A-54AD-41D4-AFC0-AAED13CD50A6#GUID-6D21314A-54AD-41D4-AFC0-AAED13CD50A6">Interactive creation</a></p>
+</div>
+<div class="section" id="editing-primitives">
+<h3>Editing Primitives<a class="headerlink" href="#editing-primitives" title="Permalink to this headline">¶</a></h3>
+<p>You can change a primitives parameters in the Attribute Editor or the Channelbox.
+A primitive in Maya consists of three different nodes ( we will learn about nodes later ). The primitive’s node is
+always called the same as their command. In case of <strong>polygon primitives</strong>, find the node prefixed by <strong>‘poly’</strong>, for
+example <strong>‘polyCube1’</strong>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Maya does not allow to have any nodes in the scene share their name. It will always increase the suffixed number
+when creating nodes of the same type.</p>
+</div>
+<p>You can now edit a primitives parameters by typing values or by using the sliders. Advanced parameters will only be
+exposed in the Attribute Editor.</p>
+<img alt="../_images/editPrimitiveParams.gif" src="../_images/editPrimitiveParams.gif" />
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Press ‘T’ after creating a primitive to call up a small floating dialog that lets you edit these parameters without
+finding the node</p>
+</div>
+</div>
 </div>
 <div class="section" id="object-manipulation">
 <h2>Object Manipulation<a class="headerlink" href="#object-manipulation" title="Permalink to this headline">¶</a></h2>
@@ -164,6 +257,15 @@
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="lesson3.html" class="btn btn-neutral float-right" title="Lesson Three" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="L1_InterfaceQuickstart.html" class="btn btn-neutral" title="Interface Overview" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
