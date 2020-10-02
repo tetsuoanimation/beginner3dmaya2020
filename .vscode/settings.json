@@ -1,9 +1,0 @@
-{
-    "python.pythonPath": "c:\\Python38-32\\python.exe",
-    "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/documentation/_build/html",
-    "restructuredtext.confPath"               : "${workspaceFolder}\\documentation",
-    "restructuredtext.updateOnTextChanged"    : "true",
-    "restructuredtext.updateDelay"            : 1,
-    "restructuredtext.sphinxBuildPath"        : "${workspaceRoot}/documentation/make",
-    "rewrap.wrappingColumn": 120
-}
