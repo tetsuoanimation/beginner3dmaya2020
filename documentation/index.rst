@@ -19,8 +19,8 @@ Welcome to 3D Design Basics - WS2020's
     :caption: Lessons:
     :hidden:
 
-    lessons/lesson1
-    lessons/lesson2
+    lessons/L1_InterfaceQuickstart
+    lessons/L2_Primitives
     lessons/lesson3
 
 
