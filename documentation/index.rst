@@ -39,7 +39,7 @@ it's massive toolset justice. If you want to learn more, always check out the
     Design/L1_IntroductionToDesign
     Design/L2_PipelineOverview
     Design/L3_DesignPrinicplesPrimer
-    Design/L4_Preproduction
+.. Design/L7_CamerasAndBlocking
 
 .. toctree::
     :maxdepth: 2
