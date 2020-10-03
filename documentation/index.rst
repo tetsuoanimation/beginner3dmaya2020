@@ -41,6 +41,13 @@ it's massive toolset justice. If you want to learn more, always check out the
     Design/L3_DesignPrinicplesPrimer
     Design/L4_Preproduction
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Assignments:
+    :hidden:
+
+    assignments/A1_primitiveCity
+
 
 .. Indices and tables
 .. ==================
