@@ -36,7 +36,11 @@ it's massive toolset justice. If you want to learn more, always check out the
     :caption: Design for 3D:
     :hidden:
 
-    Design/IntroductionToDesign
+    Design/L1_IntroductionToDesign
+    Design/L2_PipelineOverview
+    Design/L3_DesignPrinicplesPrimer
+    Design/L4_Preproduction
+
 
 .. Indices and tables
 .. ==================
