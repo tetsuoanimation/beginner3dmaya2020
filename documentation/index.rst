@@ -15,26 +15,23 @@ While we try to cover most functions of Maya we need, we won't be able to do
 it's massive toolset justice. If you want to learn more, always check out the
 `Official Autodesk Maya Manual <https://help.autodesk.com/view/MAYAUL/2020/ENU/>`_
 
-.. toctree::
-    :maxdepth: 2
-    :caption: First Steps:
-    
-    intro/setup
-    intro/first_steps
+This documentation is split into three parts. Part one, 'Using Maya' focuses on
+teaching you the skills to use Maya. Part two focuses on basic design rules and
+guidelines while part three contains your assignments that let you try, learn
+and excercise your newly learned skills.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Using Maya:
-    :hidden:
 
+    lessons/L0_projectSetup
     lessons/L1_InterfaceQuickstart
     lessons/L2_Primitives
     lessons/lesson3
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Design for 3D:
-    :hidden:
 
     Design/L1_IntroductionToDesign
     Design/L2_PipelineOverview
@@ -42,9 +39,8 @@ it's massive toolset justice. If you want to learn more, always check out the
 .. Design/L7_CamerasAndBlocking
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :caption: Assignments:
-    :hidden:
 
     assignments/A1_primitiveCity
 
