@@ -64,15 +64,39 @@ Viewport Navigation Hotkeys
 You will mainly use hotkeys to navigate the viewport. If you learn these by heart, interacting with the 3D viewport will
 become natural very quickly.
 
+This section describes basic 3D Viewport navigation shortcuts for Maya. These
+are needed for very basic scene navigation.
+
+================================ ================================= =================================
+Orbiting the Camera/Viewport     Panning the Camera/Viewport       Dollying the Camera/Viewport
+================================ ================================= =================================
+|nav_orbit|                      |nav_pan|                         |nav_zoom|
+Key Combination:                 Key Combination:                  Key Combination:
+**LeftMouse-Drag + Alt**         **MiddleMouse-Drag + Alt**        **RightMouse-Drag + Alt**
+================================ ================================= =================================
+
+.. |nav_orbit| image:: ./images/vp_orbit.gif
+    :alt: Shows animation of the camera orbiting around a cube in mayas 3D viewport
+.. |nav_pan| image:: ./images/vp_pan.gif
+    :alt: Shows animation of the camera panning around a cube in mayas 3D viewport
+.. |nav_zoom| image:: ./images/vp_dolly.gif
+    :alt: Shows animation of the dollying towards and away from a cube in mayas 3D viewport
+
+There are also three very important hotkeys to make interaction with the viewport smoother and faster.
+
 ================== ====================================================
 Hotkey             Action
 ================== ====================================================
 F                  Move to selection and make it the new view center
 Space              Open hotbox / toggle viewport layout
-Shift + Rightdrag  Zoom camera towards view center
-Alt + Leftdrag     Rotate camera around view center
-Alt + Middledrag   Pan camera
+K+Leftmouse-Drag   Scrub through timeline
 ================== ====================================================
+
+.. note::
+    | If your viewport acts strange, i.e. after changing the scene up axis, you can hit **alt+home** to reset the view and correct the issues. You can achieve the same by going to View -> Default View in the panel menu. 
+
+    .. image:: ./images/defaultview.png
+    
 
 Panel Setup
 ===========
