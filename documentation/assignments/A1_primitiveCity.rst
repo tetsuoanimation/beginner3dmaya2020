@@ -36,6 +36,8 @@ Links and Tipps
 * You can always use reference or other ways of growing your :ref:`visualLibrary`,
   just don't lift ideas directly from this assignment's example scene. 
 
+
+
 *******************
 Rendering the scene
 *******************
