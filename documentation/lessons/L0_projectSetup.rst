@@ -15,6 +15,8 @@ textures, playblasts, autosaves and more on a per-need basis.
     | **Maya might create a bunch of clutter in your user-folder if you don't set your projects correctly.**
     | **When working on a new project, make sure you always set-up or change the workspace to make sure you are not cluttering your old projects.**
 
+.. _workspaceSetup:
+
 Setting up a workspace
 ======================
 
