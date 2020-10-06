@@ -74,7 +74,6 @@ As always, you can learn more about primitives, their parameters and usage in th
 * `Primitive creation via shelf <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C4F6724D-1887-41C5-ADB1-A32FEF47FDD3#GUID-C4F6724D-1887-41C5-ADB1-A32FEF47FDD3>`_
 * `Interactive creation <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-6D21314A-54AD-41D4-AFC0-AAED13CD50A6#GUID-6D21314A-54AD-41D4-AFC0-AAED13CD50A6>`_
 
-
 *******************
 Object Manipulation
 *******************
@@ -95,6 +94,8 @@ that are unselected.
     | You can also select objects in the outliner. This lets you select objects that are not selectable in the viewport such as transforms, shape nodes and groups
 
 As always, you can find out a lot more about selecting in the `Official Autodesk Maya Documentation <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-730DA883-8B11-4A40-9573-0A54AA1D861F>`__
+
+.. _primtiveTransform:
 
 Object manipulation in the viewport
 ===================================

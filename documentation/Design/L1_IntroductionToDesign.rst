@@ -6,9 +6,9 @@ Introduction to 3D
 Why we do this
 **************
 
-**************************
-The 3D production pipeline
-**************************
+**********************************
+The 3D production pipeline and you
+**********************************
 
 **********************
 Things to keep in mind
