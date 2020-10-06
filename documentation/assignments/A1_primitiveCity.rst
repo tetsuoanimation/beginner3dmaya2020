@@ -7,6 +7,7 @@ Assignment 1 - Future City Scene
 **********
 Assignment
 **********
+
 The goal of this exercise is to create a futuristic or cyberpunky city block made of 
 primitive objects only. You will also have to assign basic materials and light the
 scene.
@@ -35,28 +36,30 @@ Links and Tipps
 * You can always use reference or other ways of growing your :ref:`visualLibrary`,
   just don't lift ideas directly from this assignment's example scene. 
 
-*******************
-Assigning Materials
-*******************
+********************
+Materials and Colors
+********************
+
 To use different colors on your objects, you will need to assign materials and shaders
 to your scene. This section will explain in a really basic way how to set up and 
 assign the materials for this assignment. It is by no means exhaustive and we won't be
 covering how to create a realistic looking material or what each of the settings and
 parameters of a material do.
 
-Creating a material
-===================
+Creating a basic material
+=========================
 
 Assigning a material
 ====================
 
-Making a 'glow' material
-========================
+Making a glowing material
+=========================
 
 
 ***********************
 Lighting the assignment
 ***********************
+
 This will be a very short look into lighting with Maya lights and Arnold. This section
 is by no means exhaustive, lighting technique and principles are complex and will be 
 covered in depth later in this course. 

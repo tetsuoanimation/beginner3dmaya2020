@@ -36,7 +36,8 @@ and excercise your newly learned skills.
     Design/L1_IntroductionToDesign
     Design/L2_PipelineOverview
     Design/L3_DesignPrinicplesPrimer
-.. Design/L7_CamerasAndBlocking
+    Design/L7_CamerasAndBlocking
+    Design/L8_Light
 
 .. toctree::
     :maxdepth: 1
