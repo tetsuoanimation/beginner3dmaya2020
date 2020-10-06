@@ -157,7 +157,8 @@ materials for now.
 .. image:: ./images/arnold_changeRoughness.gif
 
 Base settings of a Standard Surface in the Arnold Manual:
-    `Base <https://docs.arnoldrenderer.com/display/A5AFMUG/Base>`__
+    
+    * `Base <https://docs.arnoldrenderer.com/display/A5AFMUG/Base>`__
 
 Making a glowing material
 =========================
@@ -172,7 +173,8 @@ driving up the weight of the emission. You can set a color by choosing a 'Color'
     them.
 
 Emission in the Arnold Manual:
-    `Emission <https://docs.arnoldrenderer.com/display/A5AFMUG/Emission>`__
+
+    * `Emission <https://docs.arnoldrenderer.com/display/A5AFMUG/Emission>`__
 
 
 ***********************
@@ -220,11 +222,12 @@ You are free to choose from all lights available in Maya to light your scene.
 Check out the Arnold Manual for more  Information on the different light types:
 
 Arnold User Manual Links:
-    `Lights <https://docs.arnoldrenderer.com/display/A5AFMUG/Lights>`__
-    `Area Lights <https://docs.arnoldrenderer.com/display/A5AFMUG/Ai+Area+Light>`__
-    `Point Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Point+Light>`__
-    `Spot Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Spot+Light>`__
-    `Directional Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Spot+Light>`__
+    
+    * `Lights <https://docs.arnoldrenderer.com/display/A5AFMUG/Lights>`__
+    * `Area Lights <https://docs.arnoldrenderer.com/display/A5AFMUG/Ai+Area+Light>`__
+    * `Point Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Point+Light>`__
+    * `Spot Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Spot+Light>`__
+    * `Directional Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Spot+Light>`__
 
 .. hint::
     Arnold's default settings for lights can be quite dark. You can use a lights exposure or intensity 
