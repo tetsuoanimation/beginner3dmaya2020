@@ -120,6 +120,13 @@ Find out more about softselection in the Manual:
 
 The Modeling Toolkit
 ====================
+The Modeling Toolkit is a collection of many Maya modeling commands in one place. It allows
+quick access to selection and transform constraints and can be used as your main interface
+for modeling. The toolkit also has a very handy hotkey section that can be used as a cheatsheet
+for the modifier keys used in modeling tools. Note that most of the tools and commands can be 
+found else where as well and the Shift-RightClick hotbox can be a faster way to access them.
+
+.. image:: ./images/modelingToolkit.png
 
 Find out more about the Modeling Toolkit in the Manual:
     `Toolkit Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-D4CD168A-34F2-465B-A39C-DE20B34E5535>`_
