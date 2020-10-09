@@ -67,12 +67,21 @@ Maya Manual Link:
 
 Normals
 =======
-Normals are a imaginary lines that are perpendicular to faces. Each face has one normal. For
-shading purposes, 3D meshes use per-vertex normals. Vertex normals are not defined by a polygon
+3D faces are mathematically defined faces, they have no thickness and a front and back side.
+The normal defines which way of a face is 'front' and which one is back. This can be important 
+as many game engines use backface culling and consider backfaces 'invisible' to save on performance. 
+In Maya, backfaces are colored black by default.
+
+.. image:: ./images/teapotWithFaceNormals.png
+
+For shading purposes, 3D meshes use per-vertex normals. Vertex normals are not defined by a polygon
 and can be edited. You can view an objects vertex normals by enabling 'Normals -> Normal Display' 
 in the **Shift+RightClick** hotbox.
 
-.. image:: ./images/visibleNormalsOnSphereCollage.png
+.. figure:: ./images/visibleNormalsOnSphereCollage.png
+
+    1a: Smooth Shaded Sphere, 1b: Averaged vertex normals for smooth shading, 2a: Facetted shaded sphere, 2b: per face
+    normals for hard shading
 
 3D softwares decide how to shade a polygon by looking at the normal directions of its vertices.
 It does not care where the polygon is pointing in the 3d world, but uses the normals to figure 
@@ -113,7 +122,6 @@ Soft Selection
 If you want to transform a bunch of components at once but want a smooth transition between
 affected components and unaffected components, you can use soft selection by pressing the
 **'B'** hotkey. This is great tool to get a more sculptural feel.
-
 
 Find out more about softselection in the Manual:
     `Maya Soft Selection <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9>`_
