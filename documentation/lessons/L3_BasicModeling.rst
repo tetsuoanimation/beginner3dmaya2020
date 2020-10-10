@@ -113,6 +113,28 @@ the Normals -> Harden or Normals -> Soften command in the **Shift+RightClick** h
 Basic Polygon Modeling Tools
 ****************************
 
+Component Selection
+===================
+To edit polygon component, you need to select them. Selecting them one by one can become 
+tedious quickly. Maya provides a range of ways to select multiple components at once.
+
+To access different selection tools and constraints, access the selection tool hotbox by pressing
+**Shift+Ctrl+RightClick**. 
+
+There is a special hotbox dedicated to selection and converting between component types. 
+You can access this hotbox by using **Ctrl+RightClick**. 
+
+Component Selection in the Manual:
+
+    * `Selection Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-98B65259-DABA-4C5E-9014-4D76B2DE28B3>`_
+    * `Growing and shrinking a selection <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-475A975C-DE5E-4D6A-AE60-D8B8E24F74E2>`_
+    * `Select Edge Ring <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-814BADD4-9D5A-4B01-ACB1-CBAD8D1026E4>`_
+    * `Select Edge Loop <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-EB713BC6-3402-4BE6-8475-BB9FF53439AA>`_
+    * `Select a path between two components <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-53C928EB-BDCF-4253-A936-18362C51B95F>`_    
+    * `Converting a component selection with the Modeling Toolkit <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-CA39C6B3-A165-40E0-98A6-8F43661E0422>`_
+    * `Select Components by criteria ( planar / angle / nth .. ) <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-2CE8BFE7-B5F0-45C3-8897-F5F1F8572FB5>`_
+    * `Pick Walk Selection <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-1DF4577E-E0C3-481A-8E16-20DF7B060E1F>`_
+
 Basic transform
 ===============
 To edit the placement of a component, you can use the standard transform tools we looked
@@ -197,28 +219,134 @@ Extrude in the Maya Manual:
 Bevel
 =====
 
-Weld / Target Weld
-==================
+.. image:: ./images/bevel.gif
+
+Beveling is used to round off the harsh and unnatural edges of 3D geometry. You can find the Bevel command
+in the **Shift-RightClick** hotbox, in the modeling toolkit and in *Edit Mesh -> Bevel*
+
+Bevel in the Maya Manual:
+
+    * `Bevel Faces <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-40E124B1-36EA-4B85-823A-6CB2CD1BEFBE>`_
+    * `Bevel Edges <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-80605B6D-79ED-4435-99FB-928508248469>`_
 
 Cut / Multicut / Insert Edgeloop
 ================================
 
-Connect Components
-==================
+.. image:: ./images/multiCut.gif
+
+While modeling, you will need to add geometry to your model to create details, edit edge flow or to model new 
+shapes. You might also want to add something called a 'Support Loop' when subdivision  modeling.
+
+All of these operations can be handled by the multipurpose Multicut tool and modifier hotkeys. For advanced
+adding of edges, for example multiple edge loops at once, you will still have to use the single purpose tools 
+'Insert Edgeloop' and 'Knife' as well as 'Connect Components'.
+
+All these tools can be found in the **Shift-RightClick** hotbox, in edit esh and some in the Modeling Toolbox.
+
+Find out more about adding edges in the Maya Manual:
+
+    * `Multicut Tool Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-93324AE7-5B19-4D74-B41B-74934B4AD20C>`_
+    * `Cut Faces With The Multicut Tool <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-12DF0D57-6E5E-48E3-8FBF-F787BA4E5410>`_
+    * `Multicut Tool Options <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B038B745-267E-4EDF-8201-EED826DC6837>`_
+    * `Connect Components <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-04D4FE26-68AE-4247-9297-592AB4575A94>`_
+    * `Insert Edgeloop Tool <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-33D62F72-8E72-4685-A7DC-73C45206F732>`_
+
+
+Merge Vertices / Target Weld
+============================
+
+.. image:: ./images/targetWeld.gif
+
+Merging or combining vertices allows you to attach different parts of the mesh together as well as editing topology.
+
+There are many ways of merging and combining geomery in Maya. The most interactive way is the 'Target Weld' Tool.
+Depening on the situation, other tools like merge, merge to center or collapse edge might be faster. Take some time
+to try them all to get a feel which is the right tool for your operation.
+
+All merge tools can be found in the **Shift-RightClick** hotbox in the '*Merge Vertices*' submenu, 
+and some in the modeling toolbox and some in the *Edit Mesh* menu.
+
+All merge tools in th Maya Manual:
+
+    * `Merge Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-2DF066DD-4C1C-462E-9F8C-FA52FA9D9B16>`_
+    * `Target Weld <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-F1BFED46-9277-4B01-93A8-37946E110007>`_
+    * `Collapse Edge <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-1D8FD045-5D24-4B56-960A-AD5855719940>`_
+
+.. note::
+    To merge vertices, the mesh has to be single object. You can use `Combine  <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-79B4AF50-94D0-424F-BCB9-1DFCCCE093AD>`__
+    if you need to merge vertices between two different objects.
+
 
 Bridge
 ======
 
-Fill Hole / Grid Fill
-=====================
+.. image:: ./images/bridge.gif
+
+The bridge command allows you to connect two or more border edges with faces to connect and attach separated faces.
+
+The Bridge command can be found in the **Shift-RightClick** hotbox, *Edit Mesh -> Bridge* as well as the Modeling
+Toolbox.
+
+Find out more about the Bridge Tool and its options in the Manual:
+
+    * `Brige Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C3E9D5F2-6645-4F51-96AB-B417B53FD5C1>`_
+    * `Bridge Options <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-FF2E45FA-F41A-488B-9426-FB0179DA9338>`_
+
+.. note::
+    To bridge edges, the mesh has to be single object. You can use `Combine  <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-79B4AF50-94D0-424F-BCB9-1DFCCCE093AD>`__
+    if you need to bridge between two different objects.
+
+.. warning::
+    The bridge command might fail if it is provided with the wrong input meshes. The Maya Manual provides information
+    on how to fix a failed bridge operation in `Troubleshooting Bridgegd Meshes <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-5F5FA5A0-287E-4064-BD56-B08B1CB221A0>`_
 
 
-Split, Combine and Extract
-==========================
+Split, Extract and Detach
+=========================
+
+.. figure:: ./images/extractFaces.gif
+
+    Sequence of Detach, Extract and Duplicated on different meshes
+
+You can create new geometry from existing geo by extracting or duplicating faces. This can be usefull to
+create detail or if you want to keep the same form but need to edit edgeflow. Extracting and Duplicating 
+will create a new object while Detaching keeps the detached faces in the same object.
+You can access these tools in the **Shift-RightClick** hotbox or in the *Edit Mesh* menu.
+
+Find out more on how to split of geometry in the Manual:
+
+    * `Extract into a new object <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-7268743C-C4E7-4C6A-93FA-C829D9317DDF>`_
+    * `Duplicate and split <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C5BBD962-7A70-4F44-9A10-BC78B517A16C>`_
+    * `Duplicate face options <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8A9AD59F-C12D-4F16-85F0-DA44392B4489>`_
 
 Deleting Components
 ===================
+Sometimes you may want to delete components to simplify your meshes. There are a few different ways to delete
+a component in Maya. Each of them is useful in a different situation.
+You can find these commands in the **Shift-RightClick** hotbox or in *Edit Mesh->Delete Edge/Vertex*.
 
+================== ================ ========================================================================
+Selected Component Action           Results
+================== ================ ========================================================================
+Vertices           Press 'Del'      Removes vertices that are connected to two edges, keeps all others
+Vertices           'Delete Vertex'  Removes vertices and attached edges.
+Edges              Press 'Del'      Removes edges, keeps vertices on intersections
+Edges              'Delete Edge'    Removes edges and connected vertices
+Face               Pres 'Del'       Removes faces
+================== ================ ========================================================================
+
+.. warning::
+    Just pressing "Del" can quickly create a mess of unused vertices. Make sure you use the 'Delete Edge' 
+    command to remove edges.
+
+.. tip::
+    To clean up stray vertices left behind by not using the 'Delete Edge' command, select all vertices by
+    pressing **Ctrl+Shift+A** and press 'Del'.
+
+    .. figure:: ./images/deleteEdge.gif
+        
+        1: Removing edge with delete edge, 2: Removing edge pressing "Del" and leaving behind a stray vertex.
+        Stray vertex is cleaned up by selecting it and pressing "Del"
 
 ************************
 The Construction History
