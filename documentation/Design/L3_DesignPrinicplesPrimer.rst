@@ -48,9 +48,15 @@ The Camera
 ==========
 Focal length, depth of field, camera placement, camera grounding
 
+.. _grouping:
 
-Shape & Figure - Ground Relationship
-====================================
+Grouping
+========
+
+.. _shapeAndSilhouette:
+
+Shape, Silhouette & Figure - Ground Relationship
+================================================
 
 Clarity
 =======

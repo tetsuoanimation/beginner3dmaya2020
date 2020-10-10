@@ -1,4 +1,3 @@
-
 ########
 Lighting
 ########
@@ -13,6 +12,8 @@ How light works in the frame
 Light and the Figure-Ground Relationship
 ----------------------------------------
 
+.. _keyFillKicker:
+
 Key - Fill - Kicker
 ===================
 
@@ -24,6 +25,8 @@ Fill
 
 Kicker
 ------
+
+.. _lightSetups:
 
 Basic Light Setups
 ==================

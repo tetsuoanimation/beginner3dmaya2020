@@ -109,6 +109,8 @@ the Normals -> Harden or Normals -> Soften command in the **Shift+RightClick** h
     subdivision. Visuallz, hard normals will create a 100% hard edge which won't occur
     in the real world and will look unrealistic in your renders.
 
+.. _basicModelingTools:
+
 ****************************
 Basic Polygon Modeling Tools
 ****************************
