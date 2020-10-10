@@ -15,7 +15,9 @@ Vertices, Edges, Faces, Polygons
 ================================
 3D objects or meshes are defined by vertices, edges and faces called 'Components' in Maya.
 
-.. image:: ./images/vertexEdgePoly.png
+.. figure:: https://blenderbeginner.readthedocs.io/en/latest/_images/bl_mesh_components.png
+
+    Vertices, edges, faces and polygons of a cube. Image by Johannes Rauch.
 
 You can access the components of an object by switching to a 'Component Mode'. Select
 the object and press **F7** to switch to this mode or use the faster and easier way and select
@@ -62,8 +64,9 @@ You can find and clean up these types of geometry by running the 'Mesh -> Cleanu
 found in the modeling toolset.
 
 Maya Manual Link:
-    `Non-Manifold Geometry <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8E97CEF7-1CFE-4838-B4B7-59F526E21AB2>`_
-    `Mesh Cleanup <https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Modeling/files/GUID-AB60C982-C96E-4947-8CF3-5152406B6A40-htm.html#GUID-AB60C982-C96E-4947-8CF3-5152406B6A40>`_
+
+    * `Non-Manifold Geometry <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8E97CEF7-1CFE-4838-B4B7-59F526E21AB2>`_
+    * `Mesh Cleanup <https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Modeling/files/GUID-AB60C982-C96E-4947-8CF3-5152406B6A40-htm.html#GUID-AB60C982-C96E-4947-8CF3-5152406B6A40>`_
 
 Normals
 =======
@@ -86,8 +89,12 @@ in the **Shift+RightClick** hotbox.
 3D softwares decide how to shade a polygon by looking at the normal directions of its vertices.
 It does not care where the polygon is pointing in the 3d world, but uses the normals to figure 
 out which way a polygon faces. Manipulating normals will affect the way a polygon is lit.
+You can edit the direction of face normals with the 'Vertex Normal Edit Tool'. However, this is
+only recommended in very special cases.
 
-.. image:: ./images/normalsAndShading.gif
+.. figure:: ./images/normalsAndShading.gif
+
+    Vertex normals rotate around a polygon and change how a light affects the polygon's shading
 
 Normals are the fastest way to make an edge seem 'hard' or 'soft'. While split-per-face-normals,
 also called hard normals create a hard transition between faces, averaged normals called soft normals
@@ -99,7 +106,8 @@ the Normals -> Harden or Normals -> Soften command in the **Shift+RightClick** h
 .. note::
     Hard or soft normals do not define or change an objects silhouette. It only affects
     polygon shading. To create a smoother silhouette, you need either more edges or use
-    subdivision.
+    subdivision. Visuallz, hard normals will create a 100% hard edge which won't occur
+    in the real world and will look unrealistic in your renders.
 
 ****************************
 Basic Polygon Modeling Tools
@@ -111,20 +119,27 @@ To edit the placement of a component, you can use the standard transform tools w
 at in :ref:`primtiveTransform`. To manipulate comopnents rather than objects, select the
 object and switch to one of the 'Component Modes' using the RightClick-Hotbox.
 
-For more options on transforming components, check out the Maya Manual
-    `Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-6041BD1C-A129-444A-8737-F6EB65CA6246>`_
-    `Sliding along a surface <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-A7C41EA4-3249-4A24-A0AA-788D1F7D3DBF>`_
+For more options on transforming components, check out the Maya Manual:
+
+    * `Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-6041BD1C-A129-444A-8737-F6EB65CA6246>`_
+    * `Sliding along a surface <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-A7C41EA4-3249-4A24-A0AA-788D1F7D3DBF>`_
 
 Soft Selection
 ==============
-.. image:: ./images/softSelection.gif
+
+.. image:: ./images/softSelectionTranslate.gif
+    :width: 49%
+
+.. image:: ./images/softSelectionRotate.gif
+    :width: 49%
 
 If you want to transform a bunch of components at once but want a smooth transition between
 affected components and unaffected components, you can use soft selection by pressing the
 **'B'** hotkey. This is great tool to get a more sculptural feel.
 
 Find out more about softselection in the Manual:
-    `Maya Soft Selection <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9>`_
+
+    * `Maya Soft Selection <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9>`_
 
 The Modeling Toolkit
 ====================
@@ -137,11 +152,13 @@ found else where as well and the Shift-RightClick hotbox can be a faster way to 
 .. image:: ./images/modelingToolkit.png
 
 Find out more about the Modeling Toolkit in the Manual:
-    `Toolkit Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-D4CD168A-34F2-465B-A39C-DE20B34E5535>`_
-    `Toolkit Hotkeys <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-DAD42E62-3E23-4A00-93E9-4F4A193F3057>`_
+
+    * `Toolkit Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-D4CD168A-34F2-465B-A39C-DE20B34E5535>`_
+    * `Toolkit Hotkeys <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-DAD42E62-3E23-4A00-93E9-4F4A193F3057>`_
 
 Extrude 
 =======
+
 .. image:: ./images/extrude.gif
 
 Extruding components is one of the fastest ways to add new geometry and to change flow. 
@@ -152,22 +169,30 @@ might be handy in some cases.
 
 In Maya, you can extrude any component. You can find the extrude command in the **Shift-Rightclick**
 hotbox, in the Modeling Toolkit, the modeling shelf or in *Edit Mesh -> Extrude*
+
 You can also hold shift and drag to extrude if you enabled it in Maya's preferences.
 
+By default, Maya's extrude tool will create new geometry by translating. You can switch it
+to creating new geo by scaling by clicking one of the small cubes on top of the gizmo's arrows.
+
 .. hint::
-    The extrude gizmo / tool has two modes: Translate and Scale. You can switch between them by clicking
-    the blue icon in the to right corner of the gizmo
-    .. image:: ./images/extrudeSwitchMode.gif
+    By default, the extrude tool will work in direction of the components face normal. You 
+    can switch it to using world translations by clicking the blue icon in the to right corner 
+    of the gizmo.
+
+    .. image:: ./images/extrudsSwitchMode.gif
 
 .. note::
     When you watch tutorials on other 3D software, you might come across someone using an 
     'inset' command. Maya does the same when you use the extrude command and scale inwards.
+    
     .. image:: ./images/inset.gif
 
 Extrude in the Maya Manual:
-    `Extrude Options <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-0026EDC2-E6F7-4C57-A22F-CA6D440CE4AD>`_
-    `Extrude Tool <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-20202ED3-5EC7-420E-860E-EC29D101A7A8>`_
-    `Keep Faces Togeher <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-2D20D2B8-4B0D-465C-A244-67A9BC608663>`_
+
+    * `Extrude Options <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-0026EDC2-E6F7-4C57-A22F-CA6D440CE4AD>`_
+    * `Extrude Tool <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-20202ED3-5EC7-420E-860E-EC29D101A7A8>`_
+    * `Keep Faces Togeher <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-2D20D2B8-4B0D-465C-A244-67A9BC608663>`_
 
 Bevel
 =====
