@@ -33,7 +33,8 @@ and excercise your newly learned skills.
     :maxdepth: 1
     :caption: Design for 3D:
 
-    Design/L1_IntroductionToDesign
+    Design/L0_IntroductionToDesign
+    Design/L1_SketchbooksAndThumbnails
     Design/L2_PipelineOverview
     Design/L3_DesignPrinicplesPrimer
     Design/L7_CamerasAndBlocking
