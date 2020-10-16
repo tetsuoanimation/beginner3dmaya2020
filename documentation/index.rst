@@ -27,7 +27,7 @@ and excercise your newly learned skills.
     lessons/L0_projectSetup
     lessons/L1_InterfaceQuickstart
     lessons/L2_Primitives
-    lessons/L3_BasicModeling
+.. lessons/L3_BasicModeling
 
 .. toctree::
     :maxdepth: 1
@@ -37,15 +37,15 @@ and excercise your newly learned skills.
     Design/L1_SketchbooksAndThumbnails
     Design/L2_PipelineOverview
     Design/L3_DesignPrinicplesPrimer
-    Design/L7_CamerasAndBlocking
-    Design/L8_Light
+.. Design/L7_CamerasAndBlocking
+.. Design/L8_Light
 
 .. toctree::
     :maxdepth: 1
     :caption: Assignments:
 
     assignments/A1_primitiveCity
-    assignments/A2_floatingObjects
+.. assignments/A2_floatingObjects
 
 
 .. Indices and tables
