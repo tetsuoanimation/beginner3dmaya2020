@@ -50,8 +50,8 @@ Focal length, depth of field, camera placement, camera grounding
 
 .. _grouping:
 
-Grouping
-========
+Shape Grouping
+==============
 
 .. _shapeAndSilhouette:
 
