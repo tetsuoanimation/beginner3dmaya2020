@@ -27,7 +27,7 @@ and excercise your newly learned skills.
     lessons/L0_projectSetup
     lessons/L1_InterfaceQuickstart
     lessons/L2_Primitives
-.. lessons/L3_BasicModeling
+    lessons/L3_BasicModeling
 
 .. toctree::
     :maxdepth: 1

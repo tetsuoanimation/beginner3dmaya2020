@@ -2,7 +2,7 @@
 Assignment 2 - Floating Objects
 ###############################
 
-.. image:: ./images/floatingObjects.png
+.. image:: ./images/randomObjects_lesson2.png
 
 **********
 Assignment
