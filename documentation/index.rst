@@ -45,7 +45,7 @@ and excercise your newly learned skills.
     :caption: Assignments:
 
     assignments/A1_primitiveCity
-.. assignments/A2_floatingObjects
+    assignments/A2_floatingObjects
 
 
 .. Indices and tables
