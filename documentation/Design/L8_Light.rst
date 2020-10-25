@@ -12,6 +12,11 @@ How light works in the frame
 Light and the Figure-Ground Relationship
 ----------------------------------------
 
+Further watching and reading:
+    * Articles:
+    * Videos:
+        * `FZD on cinematic lighting <https://www.youtube.com/watch?v=om6uEktFodA>`_
+
 .. _keyFillKicker:
 
 Key - Fill - Kicker

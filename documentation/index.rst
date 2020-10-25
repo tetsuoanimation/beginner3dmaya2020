@@ -28,6 +28,7 @@ and excercise your newly learned skills.
     lessons/L1_InterfaceQuickstart
     lessons/L2_Primitives
     lessons/L3_BasicModeling
+    lessons/L4_ModelingForDesign
 
 .. toctree::
     :maxdepth: 1
@@ -37,6 +38,7 @@ and excercise your newly learned skills.
     Design/L1_SketchbooksAndThumbnails
     Design/L2_PipelineOverview
     Design/L3_DesignPrinicplesPrimer
+    Design/L4_GestaltPrinciples
 .. Design/L7_CamerasAndBlocking
 .. Design/L8_Light
 
