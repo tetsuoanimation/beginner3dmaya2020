@@ -138,14 +138,30 @@ Autodesk Maya Manual on Display Layers:
 Sets and Partitions
 -------------------
 
-https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B1DE4646-E52B-4611-87B6-E741F25E284B
-https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8F030BC7-8F4A-4C01-978B-DECBB807B5B0
+Sets are used for many internal things like shading or for deformers. You can use sets for selection and sorting
+of objects into groups outside the scene hierarchy. To create a set, select the objects you want in that set and go 
+to *Create -> Sets -> Set*. After creating a set, you can add objects by **MiddleMouse-Dragging** them on the set in
+the outliner. You can also add objects by **RightClicking** them and selecting *Sets -> Add Selection To Set ->
+[SETNAME]* 
+
+.. image:: ./images/addToSet.png
+
+Autodesk Maya Manual on Sets:
+
+    * `Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B1DE4646-E52B-4611-87B6-E741F25E284B>`_
+    * `Creating and managing sets <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8F030BC7-8F4A-4C01-978B-DECBB807B5B0>`_
 
 Namespaces
 ----------
 
-https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B796BE38-72AC-4B9E-9C03-3C27C3EAA171
-https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8139C5B1-3C37-43DF-965E-39800AA98EE2
+Just like with programming, Maya allows the use of namespaces to organize assets and prevent the clashing of names.
+Namespaces will be especially important when assembling large scenes with a bunch of rigs, assets and lights in them.
+You can edit namespaces by using the Namespace Editor found in *Windows -> General Editors -> Namespace Editor*.
+
+Autodesk Maya Manual on Namespaces
+
+    * `Namespaces Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B796BE38-72AC-4B9E-9C03-3C27C3EAA171>`_
+    * `Namespace Editor <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8139C5B1-3C37-43DF-965E-39800AA98EE2>`_
 
 
 ***************************
