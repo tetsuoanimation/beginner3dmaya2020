@@ -90,12 +90,26 @@ Further reading and watching:
     * Videos:
         * `Analyzing Shape Language and Design of HOB <https://www.youtube.com/watch?v=crCZEQEgFZ0>`_
         * `Sinix on shape appeal <https://www.youtube.com/watch?v=P6yJO9gKSAI>`_
-        * `Spaceship design by FZD <https://i.ytimg.com/an_webp/0YrPpraXkBY/mqdefault_6s.webp?du=3000&sqp=CKav1vwF&rs=AOn4CLAYRawN92Od49hDn_F86_wZPA9zXw>`_
+        * `Spaceship design by FZD <https://www.youtube.com/watch?v=0YrPpraXkBY&list=PLvNv1kRvuSwLYS2CkHTDS6-zVKSoUYzJO&index=5>`_
         
 
 ************************
 Frame Composition Basics
 ************************
+
+Most of the time, your 3D objects will be seen on a 2D screen or image. This will give you the possibility
+to create an appealing composition for your viewers. These frame composition basics are by no means exhaustive
+and should be seen as a starting point for growing your own visual awareness and skill.
+All of these 'rules' should more be seen as 'tools' that you can, but don't have to use. Most of them rely
+heavily on the psychological principles of the :ref:`gestaltPrinciples` which should **always** be considered
+when using any of these visual tools.
+
+.. hint::
+    The raise of VR makes it seem like the frame composition might be outdated for 3d objects some day.
+    However, most principles used for compositions in 2D frames can and should be used to create physical
+    frames in your 3D world. - This is much harder than doing it in 2D and would be to much for this 
+    course. If you are interested, there are lots of articles and scientific papers on this topic released
+    each year.
 
 .. https://www.youtube.com/watch?v=yI04tSpEB_Y
 .. https://www.youtube.com/watch?v=O8i7OKbWmRM
@@ -112,7 +126,6 @@ Focal length, depth of field, camera placement, camera grounding
 
 Shape Grouping
 ==============
-
 
 
 The Rule Of Thirds
@@ -167,13 +180,13 @@ Clarity
 =======
 Area of highest contrast!! - Focal point, subject, figure ground relationship
 
-Directing the eye
-=================
+.. Directing the eye
+.. =================
 
-Visual Flow & Focal Queue
--------------------------
-Lines, perspective, object size. -> Uses Law of Continuity in a frame to direct the eye and tell a story
+.. Visual Flow & Focal Queue
+.. -------------------------
+.. Lines, perspective, object size. -> Uses Law of Continuity in a frame to direct the eye and tell a story
 
 
-Singleframe - Multiframe
-------------------------
+.. Singleframe - Multiframe
+.. ------------------------

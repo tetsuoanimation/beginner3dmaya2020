@@ -1,3 +1,5 @@
+.. _gestaltPrinciples:
+
 ##################
 Gestalt Principles
 ##################
