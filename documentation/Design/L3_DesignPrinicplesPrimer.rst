@@ -114,19 +114,6 @@ when using any of these visual tools.
 .. https://www.youtube.com/watch?v=yI04tSpEB_Y
 .. https://www.youtube.com/watch?v=O8i7OKbWmRM
 
-The Frame
-=========
-Frame border, 2d
-
-The Camera
-==========
-Focal length, depth of field, camera placement, camera grounding
-
-.. _grouping:
-
-Shape Grouping
-==============
-
 
 The Rule Of Thirds
 ==================
