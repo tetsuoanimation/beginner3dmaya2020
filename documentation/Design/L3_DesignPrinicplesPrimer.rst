@@ -167,13 +167,3 @@ Clarity
 =======
 Area of highest contrast!! - Focal point, subject, figure ground relationship
 
-.. Directing the eye
-.. =================
-
-.. Visual Flow & Focal Queue
-.. -------------------------
-.. Lines, perspective, object size. -> Uses Law of Continuity in a frame to direct the eye and tell a story
-
-
-.. Singleframe - Multiframe
-.. ------------------------
