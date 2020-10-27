@@ -50,7 +50,7 @@ Tools for clean scenes
 Naming Objects
 --------------
 
-.. image:: ./images/hierarchy_names.png
+.. image:: ./images/hierachy_names.png
 
 One of the most powerful tools to ensure easy understanding of the scene as well as mitigating 
 name clashes is object / node naming. Find a clear name for each node you expose to the scene 
@@ -87,7 +87,7 @@ Renaming a lot of objects
 You can rename a selection, hierarchy or even all objects in the scene with the 'Search And Replace
 Names' Tool. You can find this tool in **Modify > Search and Replace Names...**
 
-.. image:: ./images/searchReplaceName.png
+.. image:: ./images/searchReplaceNames.png
 
 
 The scene hierarchy
@@ -140,3 +140,5 @@ Painting influence maps
 
 Baking Geometry
 ===============
+
+Tweak Nodes
