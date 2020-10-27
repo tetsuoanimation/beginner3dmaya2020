@@ -49,6 +49,8 @@ Tools for clean scenes
 Naming Objects
 --------------
 
+.. image:: ./images/hierarchy_names.png
+
 One of the most powerful tools to ensure easy understanding of the scene as well as mitigating 
 name clashes is object / node naming. Find a clear name for each node you expose to the scene 
 ( esp. Geometry, Groups, Joints, Deformers, Materials, Textures, Shadinggroups, Layers ). If the 
@@ -72,9 +74,9 @@ if you can't see it.
 
 .. image:: ./images/selectByName.gif
 
-Using the wildcard character '*' you can select all objects that share some part of the name. If you
+Using the wildcard character '\*' you can select all objects that share some part of the name. If you
 properly named your objects, you can, for example, select all objects with the suffix _JNT by typing
-'*_JNT' into the box.
+'\*_JNT' into the box.
 
 .. image:: ./images/selectByNameWildCard.gif
 
