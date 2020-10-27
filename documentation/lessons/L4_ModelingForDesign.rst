@@ -43,6 +43,7 @@ of such a number of objects means you *must* work cleanly from the first pCube y
   your asset quickly will save them time as well as make sure they do not need to break your flow
   to ask for an explanation of how to use the scene.
 
+
 Tools for clean scenes
 ======================
 
@@ -90,7 +91,7 @@ Names' Tool. You can find this tool in **Modify > Search and Replace Names...**
 
 
 The scene hierarchy
-===================
+-------------------
 Transforms vs. shapes ( and the weird stuff like pickwalk to shape )
 Pivot management
 Parent / Child relationship
@@ -98,18 +99,18 @@ Transforms in a parent child relationship
 
 
 Display Layers
-==============
+--------------
 States
 Why it makes sense to use them
 
 Sets
-====
+----
 Selection Sets
 Shading sets 
 Maya is strange
 
 Managing visibility
-===================
+-------------------
 visibility
 isolate Select
 intermediate object

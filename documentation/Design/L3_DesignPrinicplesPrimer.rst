@@ -158,7 +158,6 @@ Further Reading & watching
     * Videos:
         * `How to easily understand the Ratios in Dynamic Symmetry <https://www.youtube.com/watch?v=dhpgzQ-iyss&t=99s>`_
 
-
 .. _shapeAndSilhouette:
 
 Shape, Silhouette
