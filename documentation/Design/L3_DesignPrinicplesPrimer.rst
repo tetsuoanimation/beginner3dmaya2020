@@ -25,6 +25,7 @@ When creating anything, we can use this knowledge to shape the perception, story
 an audience.
 
 Further reading:
+
     * `The contrast effect on wikipedia <https://en.wikipedia.org/wiki/Contrast_effect>`_
     * `Examples of the contrast effect <https://effectiviology.com/contrast-effect/>`_
      
@@ -112,7 +113,7 @@ Focal length, depth of field, camera placement, camera grounding
 Shape Grouping
 ==============
 
-.. _shapeAndSilhouette:
+
 
 The Rule Of Thirds
 ==================
@@ -129,28 +130,50 @@ the major lines and focus points on these intersections.
 
 Further reading:
 
-    * `Wikipedia on the rule of thirds <https://en.wikipedia.org/wiki/Rule_of_thirds>`_
-    * `SLR Lounge on the rule of thirs <https://www.slrlounge.com/glossary/rule-of-thirds-definition/>`_
+    * `Wikipedia on the Rule Of Thirds <https://en.wikipedia.org/wiki/Rule_of_thirds>`_
+    * `SLR Lounge on the Rule Of Thirds <https://www.slrlounge.com/glossary/rule-of-thirds-definition/>`_
+    * `Why the Rule Of Thirds leads to bad conpositions <https://www.youtube.com/watch?v=AJ7fahM5sBQ>`_
 
 .. https://www.youtube.com/watch?v=RrxO6SZAVb4
 
 Dynamic Symmetry and Major Area Division:
 =========================================
 
+Simple erklärung: Bilddiagonale und darauf senkrecht stehende diagonalen die in den Ecken beginnen bilden an 
+ihren Schnittpunkten 'Eyes' bzw areas of focus.
+Lines dividing the image through the eyes are used as verticals.
 
-Shape, Silhouette & Figure - Ground Relationship
-================================================
+Baroque Diagonal - Bot Left To Up Right: More 'pleasing', is known to people from perspective lines and reading
+left to right
+
+Sinister Diagonal - Up Left To Bot Right
+
+Use Parallel Angles! ( Dynamic Symmetry encourages using the gamut of angles it provides )
+Check Figure Ground Relationship
+
+Further Reading & watching
+
+    * Articles:
+
+    * Videos:
+        * `How to easily understand the Ratios in Dynamic Symmetry <https://www.youtube.com/watch?v=dhpgzQ-iyss&t=99s>`_
+
+
+.. _shapeAndSilhouette:
+
+Shape, Silhouette
+=================
 
 Clarity
 =======
-Focal point, subject, figure ground relationship
+Area of highest contrast!! - Focal point, subject, figure ground relationship
 
 Directing the eye
 =================
 
 Visual Flow & Focal Queue
 -------------------------
-Lines, perspective, object size
+Lines, perspective, object size. -> Uses Law of Continuity in a frame to direct the eye and tell a story
 
 
 Singleframe - Multiframe
