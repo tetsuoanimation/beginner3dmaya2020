@@ -1,18 +1,6 @@
-##########################
-Design Principles - Basics
-##########################
-
-.. _visualLibrary:
-
-**************
-Visual Library
-**************
-
-Hard vs. Soft Visual Library
-============================
-
-Growing your Visual Library
-===========================
+#######################################
+Basic Design and Composition Principles
+#######################################
 
 ********
 Contrast
