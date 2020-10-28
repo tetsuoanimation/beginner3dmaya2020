@@ -148,7 +148,7 @@ the outliner. You can also add objects by **RightClicking** them and selecting *
 
 Autodesk Maya Manual on Sets:
 
-    * `Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B1DE4646-E52B-4611-87B6-E741F25E284B>`_
+    * `Sets Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B1DE4646-E52B-4611-87B6-E741F25E284B>`_
     * `Creating and managing sets <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-8F030BC7-8F4A-4C01-978B-DECBB807B5B0>`_
 
 Namespaces
