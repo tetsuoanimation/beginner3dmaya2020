@@ -127,6 +127,8 @@ Further reading:
 Dynamic Symmetry and Major Area Division:
 =========================================
 
+Jay Hambridge, formulated 1920 but used long before that.
+
 Simple erklärung: Bilddiagonale und darauf senkrecht stehende diagonalen die in den Ecken beginnen bilden an 
 ihren Schnittpunkten 'Eyes' bzw areas of focus.
 Lines dividing the image through the eyes are used as verticals.
@@ -139,12 +141,16 @@ Sinister Diagonal - Up Left To Bot Right
 Use Parallel Angles! ( Dynamic Symmetry encourages using the gamut of angles it provides )
 Check Figure Ground Relationship
 
-Further Reading & watching
+Major area division: Sub-rectangles get subdivided with grids again ( i.e. Quads can get nice diagonals that way )
+
+Further reading & watching
 
     * Articles:
-
+        * `What is Dynamic ymmetry ( all lines explained ) <http://larmonu.larmonstudios.com/dynamic-symmetry/>`_
+        * `How to use Dynamic Symmetry in composition <https://photographycourse.net/dynamic-symmetry/>`_
     * Videos:
-        * `How to easily understand the Ratios in Dynamic Symmetry <https://www.youtube.com/watch?v=dhpgzQ-iyss&t=99s>`_
+        * `Dynamic Symmetry for filmmakers <https://www.youtube.com/watch?v=3pLKYt91qOw>`_
+        * `How to easily understand the ratios in Dynamic Symmetry <https://www.youtube.com/watch?v=dhpgzQ-iyss&t=99s>`_
 
 .. _shapeAndSilhouette:
 
