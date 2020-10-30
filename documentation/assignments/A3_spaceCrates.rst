@@ -2,7 +2,7 @@
 Assignment 3 - Sci-fi Crate Concepts
 ####################################
 
-.. image:: ./images/createComp.png
+.. image:: ./images/crateComp.png
 
 **********
 Assignment
