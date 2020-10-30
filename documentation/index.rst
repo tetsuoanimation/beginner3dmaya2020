@@ -48,6 +48,7 @@ and excercise your newly learned skills.
 
     assignments/A1_primitiveCity
     assignments/A2_floatingObjects
+    assignments/A3_spaceCrates
 
 
 .. Indices and tables
