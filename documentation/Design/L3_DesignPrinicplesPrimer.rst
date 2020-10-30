@@ -133,6 +133,13 @@ Simple erklärung: Bilddiagonale und darauf senkrecht stehende diagonalen die in
 ihren Schnittpunkten 'Eyes' bzw areas of focus.
 Lines dividing the image through the eyes are used as verticals.
 
+Berechnung: 
+    Large Side / Small Side = Ratio 
+    Smaller Side / Ratio = Abstand von der Kante. Vertikale = Ankunft der Reziproken
+
+    MAD: Just divide the smaller side by 2
+    ( and do the Dynamic symmetry for this grid as well. )
+
 Baroque Diagonal - Bot Left To Up Right: More 'pleasing', is known to people from perspective lines and reading
 left to right
 
@@ -150,6 +157,7 @@ Further reading & watching
         * `How to use Dynamic Symmetry in composition <https://photographycourse.net/dynamic-symmetry/>`_
     * Videos:
         * `Dynamic Symmetry for filmmakers <https://www.youtube.com/watch?v=3pLKYt91qOw>`_
+        * `How filmmakers can compose shots mathematically <https://youtu.be/3pLKYt91qOw>`_
         * `How to easily understand the ratios in Dynamic Symmetry <https://www.youtube.com/watch?v=dhpgzQ-iyss&t=99s>`_
 
 .. _shapeAndSilhouette:
