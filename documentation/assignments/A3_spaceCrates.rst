@@ -8,51 +8,38 @@ Assignment 3 - Sci-fi Crate Concepts
 Assignment
 **********
 
-For this lesson we will create a compsition of multiple simple floating objects.
-You will be using all tools found in :ref:`Basic Modeling Tools <basicModelingTools>`. You can use any object
-found on your desk or in your living spaces as a reference.
-Use a single color for the objects and different color for the background to keep theory
-scene as simple as possible.
+For this Lesson, we will use the Gestalt Design Principles and the tools of Big - Medium - Small and 70-30 to create 3D concept art for SciFi crates.
 
-This assignment is inspired by the the photography by Carl Kleiner's `Everything can fly <https://tags.myblog.arts.ac.uk/2017/02/03/carl-kleiner-anything-can-fly/>`__
-photoseries and the `Balancing <https://500px.com/p/arken?view=photos>`__ photoseries by Dina Belenko.
+You will create five different crates using the Basic Modeling Tools and the new Constructive Solid Geometry workflow ( also called Boolean ). You can  employ the helo of tools like DCBoolManager and Shapecutter to create interactive boolesans. Aim to create five distict and different designs.
 
-.. tip::
-    If you just moved in and there are no objects floating around your living space try the
-    `Random Object Generator <https://www.bestrandoms.com/random-item-generator>`__ for 
-    inspiration.
+Create three differently colored materials. Apply one of them to all 'Big' shapes, one of them to the 'Medium' shapes and one of them to the 'Small' shapes. You can apply them to a polygon selection if there are multiple shapes in one single object.
+
+Use a renderengine to render one single png per crate and use an image editor to create one overview image / presentation with those renders.
 
 ************
 Deliverables
 ************
 
-* Models of at least 6 different objects.
-* At least 5 compostition sketches. ( Pencil or Digital drawing )
-* Render 1080 x 1080 PNG-File ( Arnold or Render-Engine of your choice )
-* .ma-file
+* One archive file ( .zip or .rar ) with:
+  * One Mayafile with least 5 different crates
+  * Five raw renders 1080 x 1080 - one of each crate
+  * One overview image to present all crates created from the raw renders
+  * Ideation sketches ( scan / photo / digital )
 
 .. warning::
     | Make sure to name all files using the following naming convention:
-    | *lesson2_render_firstname_lastname.ext ( where .ext is the file extension )*
-    | *lesson2_composition_firstname_lastname.ma ( where .ext is the file extension )*
-    | *lesson2_objectName_firstname_lastname.ext ( where .ext is the file extension )*
-    | *lesson2_sketches_firstname_lastname.ext ( where .ext is the file extension )*
+    | *lesson3_render_xxx_firstname_lastname.ext ( where .ext is the file extension and xxx is a number)*
+    | *lesson3_presentation_firstname_lastname.ext ( where .ext is the file extension )*
+    | *lesson3_sketches_firstname_lastname.ext ( where .ext is the file extension )*
+    | *lesson3_scene_firstname_lastname.ext ( where .ext is the file extension )*
 
 ***************
 Links and Tipps
 ***************
 
 * Make sure to set up a correct Maya Workspace, see :ref:`workspaceSetup`.
-* You can find out all about the tools needed to create the geometry for 
-  this assignment in the :ref:`Basic Modeling Tools <basicModelingTools>` section.
-* Try simple objects made of mostly primitive forms first and increase complexity as you
-  grow more comfortable using the different modeling tools and commands.
-* Look into image composition rules and try different compositions before deciding 
-  on a final image. Check out :ref:`shapeAndSilhouette` and ::ref:`grouping`.
-* Try not to overcomplicate the final models. This excersize aims to learn the tools and
-  not for photo realistic modelling.
-* You can adjust an objects roughness and specular value to differentiat between different
-  materials without changing an objects color.
-* Try different light setups. You can find more into in :ref:`lightSetups` and 
-  :ref:`keyFillKicker`
-* Try if colored lights can make for a more interesting final image.
+* Start from different primitives and shape them using the basic modeling tools before adding details and changing the shape using booleans.
+* Use the Big-Medium-Small and 70-30 rules to create appealing looking shapes in your models
+* Remember that the Gestalt Principles also apply to shapes in 3D space.
+* Don't overcomplicate the light setup and remember that the aim of this excersize is the design of applealing shapes and cool designs in 3D.
+* Don't lock yourself in a design direction to quickly. Use the interactivity of the boolean workflow to play with shapes and build an understanding of design.
