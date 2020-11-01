@@ -2,8 +2,6 @@
 Modeling Techniques for Design
 ##############################
 
-.. image:: ./images/lesson3_Crates.png
-
 Modeling for design covers modeling techniques that allow you to create complex forms and
 shapes quickly. These techniques can be used to design and ideate in 3D. They are - for the 
 most part - non-destructive and help you to try different shapes without managing many of the
@@ -233,7 +231,7 @@ Official Autodesk Manual on Booleans:
 DCBool Manager
 ==============
 
-.. image:: ./images/dcboolmanager.jpg
+.. image:: ./images/dcboolmanager.png
 
 When you use booleans in Maya, they become invisible and are not easy to modify. For concepting
 and designing, we want them editable as much and as long as possible. The script 'DCBool Manager' 
