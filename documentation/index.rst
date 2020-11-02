@@ -29,6 +29,7 @@ and excercise your newly learned skills.
     lessons/L2_Primitives
     lessons/L3_BasicModeling
     lessons/L4_ModelingForDesign
+    lessons/L5_ModelingForProduction
 
 .. toctree::
     :maxdepth: 1
