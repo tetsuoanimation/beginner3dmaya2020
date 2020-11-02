@@ -248,3 +248,7 @@ Videotutorial:
 
 .. tip::
     You can create a button for DC Bool Manager by selecting the text and **MiddleMouse-Dragging** it to a shelf
+
+****************************
+Using deformers for modeling
+****************************
