@@ -21,17 +21,19 @@ Deliverables
 ************
 
 * One archive file ( .zip or .rar ) with:
+  
   * One Mayafile with least 5 different crates
   * Five raw renders 1080 x 1080 - one of each crate
   * One overview image to present all crates created from the raw renders
   * Ideation sketches ( scan / photo / digital )
 
 .. warning::
-    | Make sure to name all files using the following naming convention:
-    | *lesson3_render_xxx_firstname_lastname.ext ( where .ext is the file extension and xxx is a number)*
-    | *lesson3_presentation_firstname_lastname.ext ( where .ext is the file extension )*
-    | *lesson3_sketches_firstname_lastname.ext ( where .ext is the file extension )*
-    | *lesson3_scene_firstname_lastname.ext ( where .ext is the file extension )*
+    Make sure to name all files using the following naming convention:
+
+    * *lesson3_render_xxx_firstname_lastname.ext ( where .ext is the file extension and xxx is a number)*
+    * *lesson3_presentation_firstname_lastname.ext ( where .ext is the file extension )*
+    * *lesson3_sketches_firstname_lastname.ext ( where .ext is the file extension )*
+    * *lesson3_scene_firstname_lastname.ext ( where .ext is the file extension )*
 
 ***************
 Links and Tipps
