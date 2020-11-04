@@ -13,6 +13,35 @@ Subdivision Surfaces
 
 Subdivision surfaces allow us to manipulate a smooth mesh with far less vertices than it would take to fully model a shape. It can be used to dynamically smooth the mesh at rendertime or when the camera gets closer.
 
+Subdivision in Maya
+===================
+
+Maya has different modes of showing subdivision. Most of the time you will use a function called subdivision preview:
+Press **3** to show how your model would look when subdivided. Press **1** to go back to an unsubdivided representation. You are also able to view your control cage and the subdivision result at the same time when pressing **2**.
+
+make this a table please :D
+
+.. image:: ./images/smoothPreview1.png
+
+.. image:: ./images/smoothPreview2.png
+
+.. image:: ./images/smoothPreview3.png
+
+Note that this is a preview and will not be baked into the geometry model. To use subdivision while creating new geometry, go to *Mesh -> Smooth*. 
+
+.. image:: ./images/smoothAddGeo.png
+
+
+.. note::
+    By default, Maya will use the open source *OpenSubdiv* algorithm. This means it will subdivide the mesh the same in different applications that implement it, making it possible to transfer unsmoothed meshes while getting exactly the same results when smoothing the mesh in other applications ( i.e. in Renderers, when exchanging between programs etc. )
+
+There is a lot of information about the different options and algorithms Maya offers. All of them are explained in the official Manual:
+
+    * `Mesh Smooth Preview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-BF4C21CB-C149-449F-925D-5456B1D96EB7>`_
+    * `Mesh Smooth Usage <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C4442D89-990B-4302-AF60-E21FCA22D4F3>`_
+    * `Mesh Smooth options, algorithms and more <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-FF35F773-1FC0-4EBA-A64C-6199375F489A>`_
+
+
 What is subdivision - The Algorithm
 ===================================
 
@@ -58,7 +87,12 @@ Supporting Edges - The rule of three
 
 Subdivision smoothes the surface between the points defined in your control cage. This means the shape of the resulting surface will be more interpolated and rounder when edges in your control cage are far apart while adhering tighter to your control cage when they are placed close to each other.
 
-To keep a sharper edge, you need to add **support edges** to either side of the edge. While one edge might harden your edge enough, two are preferreable as they will create a rounder and more predictable result. Adding two edges resultes in three edges total which have further benefit when we talk about `Edge termination and rerouting loops`_.
+To keep a sharper edge, you need to add **support edges** to either side of the edge. While one edge might harden your edge enough, two are preferreable as they will create a rounder and more predictable result. Holding edges that are closer to the edge they control will create a tighter crease while edges that are furhter from the crease will create a more round, beveed shape. Adding two edges resultes in three edges total which have further benefit when we talk about `Edge termination and rerouting loops`_.
+
+.. figure:: ./images/holdingedges.gif
+
+    Subdivision of a surface with changing holding edge distance.
+
 
 Fencing - Border Loops
 ----------------------
@@ -83,6 +117,7 @@ Terminating loops
 
 Adding enough geo - Cylinders and rounded surfaces
 --------------------------------------------------
+
 
 Common modeling techniques
 ==========================
