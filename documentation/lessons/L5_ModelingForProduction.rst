@@ -69,7 +69,7 @@ In 3D, the same calculations happen, but this time on a surface. Each surface ge
 Topology for subdivision surfaces
 =================================
 
-.. image:: ./images/subdMeshExample.png
+.. image:: ./images/subdFlow.png
 
 Subdivision can change the shape of a mesh quite drastically, depending on the layout of the faces, edges and vertices it uses as an input. This layout is called **'Topology'** ( or 'Topo' for short ). Meshes and Topology used as an input for subdivision surfaces is also called **'Control Cage'**.
 
