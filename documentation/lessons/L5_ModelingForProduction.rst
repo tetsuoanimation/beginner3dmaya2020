@@ -31,7 +31,6 @@ Note that this is a preview and will not be baked into the geometry model. To us
 
 .. image:: ./images/smoothAddGeo.png
 
-
 .. note::
     By default, Maya will use the open source *OpenSubdiv* algorithm. This means it will subdivide the mesh the same in different applications that implement it, making it possible to transfer unsmoothed meshes while getting exactly the same results when smoothing the mesh in other applications ( i.e. in Renderers, when exchanging between programs etc. )
 
