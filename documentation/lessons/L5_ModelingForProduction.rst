@@ -56,6 +56,10 @@ Good Topology and Edge Flow will minimize shading and smoothing artifacts such a
 Supporting Edges - The rule of three
 ------------------------------------
 
+Subdivision smoothes the surface between the points defined in your control cage. This means the shape of the resulting surface will be more interpolated and rounder when edges in your control cage are far apart while adhering tighter to your control cage when they are placed close to each other.
+
+To keep a sharper edge, you need to add **support edges** to either side of the edge. While one edge might harden your edge enough, two are preferreable as they will create a rounder and more predictable result. Adding two edges resultes in three edges total which have further benefit when we talk about `Edge termination and rerouting loops`_.
+
 Fencing - Border Loops
 ----------------------
 
