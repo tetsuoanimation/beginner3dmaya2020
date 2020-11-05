@@ -100,8 +100,32 @@ To keep a sharper edge, you need to add **support edges** to either side of the 
 Fencing - Border Loops
 ----------------------
 
+To be a able to use supporting edges in the places we want them, we need to layout our mesh with the specific aim to create edge rings around them. These rings around features of our shape are called **Edgeloops**. Edgeloops can be used like 'borders' to separate different shapes and areas in our mesh. These are called **Borderloops**. 
+
+.. note::
+    Most of the time, we want loops to be continuous and return back to their start. Try to stay away from an endless spiral ( **Spiralloop** ) or random flow in your mesh layout.
+
+.. image:: ./images/borderLoops.png
+
+
 Edge termination and rerouting loops
 ------------------------------------
+
+When constructing our mesh with border and holding edges, we will create high polygon count meshes that can be hard to work with and which might not smooth the way we want. To combat this, we want to keep the dense mesh areas local to the edges we want to support. This means we need ways to 'terminate' the dense flow and merge it back into a layout that is much easier to work with.
+Because of the subdivision algorithm working best with Quads, we can't just remove the edges ( and create an n-gon ) or merge them ( and create a triangle ). As this problem is a very common one, most solutions have already been worked out. 
+
+.. image:: ./images/edgeTermination.png
+
+As each mesh is different, there will be a lot of cases where you will have to figure out the best way to create the flow you want. In such a case, don't give up, save early and try different methods of cutting, merging and inserting loops. With time, you will build a set of solutions to solve such problems quickly. 
+
+A set of real world problems, solutions and discussion can be found here:
+
+    * `How to model them shapes - full thread <https://polycount.com/discussion/56014/how-the-f-do-i-model-this-reply-for-help-with-specific-shapes-post-attempt-before-asking>`_
+    * `How to model them shapes - images only <https://polycount.com/discussion/157205/how-u-model-dem-shapes-image-ripped>`_
+
+.. warning::
+    Read the discussion thread to learn, repeating other's solutions without understanding won't help you next time.
+
 
 How much geo do you need? Animation considerations
 --------------------------------------------------
@@ -109,8 +133,25 @@ How much geo do you need? Animation considerations
 Subdivision artifacts and problems
 ==================================
 
+Subdivision might hard to spot pinching and bumps. While these aren't that bad in the viewport, they will show their ugly side when rendered, especially in shiny or reflective materials. In a game pipeline, they will show up in normalmaps baked in a high-to-low poly workflow. There are different techniques to spot and prevent or minimize those problems, but all of them have to be a concious effort by the modeler.
+
 Materials to spot topology problems
 -----------------------------------
+
+It is easy to spot big lumps in your mesh or to make sure the subdivision creates the shape you want. However, there are a lot of the smaller pinching or smal bumps, mostly created by suboptimal edgeflow, that can be hard to spot in the viewport. These areas will show up in your render and they will show up in the most subpotimal places.
+
+To make it easier to spot such areas you need to create a highly specular material and watch how the specular distorts and flows around your shapes when orbiting the camera.
+
+Settings:
+    * Blinn or Phong Material
+    * Dark Grey Diffuse Colour
+    * Small Eccentricity ( < 0.01 )
+    * Bright Specular Colour
+
+.. image:: ./images/pinchCheckBlinn.gif
+
+.. note::
+    Matcaps, especially Zebra-Matcaps, can be a faster way to check your model. Sadly they are not implemented in Maya yet and you need to use a plugin if you want to use Matcaps in the maya viewport. You can find a plugin to use the `blender matcaps <https://blenderbeginner.readthedocs.io/en/latest/_downloads/757b9959c91f808804e02a03769746f8/subd_matcaps.zip>`__ here: `Maya Matcap Plugin <https://www.artstation.com/artwork/8lrk2n>`_
 
 Spreading loops
 ---------------
