@@ -130,6 +130,9 @@ A set of real world problems, solutions and discussion can be found here:
 How much geo do you need? Animation considerations
 --------------------------------------------------
 
+
+
+
 Subdivision artifacts and problems
 ==================================
 
