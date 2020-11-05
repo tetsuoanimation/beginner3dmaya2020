@@ -19,20 +19,26 @@ Subdivision in Maya
 Maya has different modes of showing subdivision. Most of the time you will use a function called subdivision preview:
 Press **3** to show how your model would look when subdivided. Press **1** to go back to an unsubdivided representation. You are also able to view your control cage and the subdivision result at the same time when pressing **2**.
 
-make this a table please :D
+=================== =================== ===================
+Unsubdivided        Cage & Subdivided   Subdivided
+=================== =================== ===================
+|subdPrev_1|        |subdPrev_2|        |subdPrev_3|
+Shortcut:           Shortcut:           Shortcut:
+*1*                 *2*                 *3*
+=================== =================== ===================
 
-.. image:: ./images/smoothPreview1.png
+.. |subdPrev_1| image:: ./images/smoothPreview1.png
 
-.. image:: ./images/smoothPreview2.png
+.. |subdPrev_2| image:: ./images/smoothPreview2.png
 
-.. image:: ./images/smoothPreview3.png
+.. |subdPrev_3| image:: ./images/smoothPreview3.png
 
 Note that this is a preview and will not be baked into the geometry model. To use subdivision while creating new geometry, go to *Mesh -> Smooth*. 
 
 .. image:: ./images/smoothAddGeo.png
 
 .. note::
-    By default, Maya will use the open source *OpenSubdiv* algorithm. This means it will subdivide the mesh the same in different applications that implement it, making it possible to transfer unsmoothed meshes while getting exactly the same results when smoothing the mesh in other applications ( i.e. in Renderers, when exchanging between programs etc. )
+    By default, Maya will use the open source *OpenSubdiv* algorithm. This means it will subdivide the mesh the same in different applications that implement it, making it possible to transfer unsmoothed meshes while getting exactly the same results when smoothing ( i.e. in Renderers, when exchanging between programs etc. )
 
 There is a lot of information about the different options and algorithms Maya offers. All of them are explained in the official Manual:
 
@@ -88,9 +94,7 @@ Subdivision smoothes the surface between the points defined in your control cage
 
 To keep a sharper edge, you need to add **support edges** to either side of the edge. While one edge might harden your edge enough, two are preferreable as they will create a rounder and more predictable result. Holding edges that are closer to the edge they control will create a tighter crease while edges that are furhter from the crease will create a more round, beveed shape. Adding two edges resultes in three edges total which have further benefit when we talk about `Edge termination and rerouting loops`_.
 
-.. figure:: ./images/holdingedges.gif
-
-    Subdivision of a surface with changing holding edge distance.
+.. image:: ./images/holdingEdges.gif
 
 
 Fencing - Border Loops
