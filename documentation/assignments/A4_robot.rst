@@ -1,14 +1,22 @@
-##########################
-Assignment 6 - Robot Scene
-##########################
+############################
+Assignment 4 - Robot Concept
+############################
 
 .. https://www.blue-zoo.co.uk/animation/cozmo
+
+.. image:: ./images/alarmobot_raw.png
+    :width: 49%
+
+.. image:: ./images/ordnungsBot.png
+    :width: 49%
 
 **********
 Assignment
 **********
 
-Animate and Render a robot.
+.. image:: ./images/botshouettes.png
+
+Concept an build a robot.
 
 
 ************
