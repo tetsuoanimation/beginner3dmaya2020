@@ -105,7 +105,9 @@ To be a able to use supporting edges in the places we want them, we need to layo
 .. note::
     Most of the time, we want loops to be continuous and return back to their start. Try to stay away from an endless spiral ( **Spiralloop** ) or random flow in your mesh layout.
 
-.. image:: ./images/borderLoops.png
+.. figure:: ./images/borderLoops.png
+
+    A Mesh with border loops colored in different colors in unsubdivided and subdivided form.
 
 
 Edge termination and rerouting loops
@@ -130,7 +132,16 @@ A set of real world problems, solutions and discussion can be found here:
 How much geo do you need? Animation considerations
 --------------------------------------------------
 
+While we can model a static form with a fairly low density cage, you might want to deform it later, either for animation or using a deformer. This means that the form, especially a softer form ( People, Clay, Soft Plastic ) will have support multiple poses when used with deformers or in animation. In a lot of cases this means to add more loops to support deformations, even if they might not be that visibly used in the undeformed / static position.
 
+Check out this interesting example by `Jonathan Gagon <https://www.artstation.com/lamo>`__: `Character Face Study <https://www.artstation.com/artwork/Zmryw>`__.
+Even while the character is stylized and seems very smooth, it uses a denser mesh than you might anticipate at first. This is used to support a huge range of expression and deformation.
+
+.. image:: https://cdna.artstation.com/p/assets/images/images/007/589/074/large/jonathan-gagnon-bust-clay-wireframe-squash-angle-00000.jpg?1507153607
+    :width: 49%
+
+.. image:: https://cdnb.artstation.com/p/assets/images/images/007/589/067/large/jonathan-gagnon-bust-clay-wireframe-stretch-angle-00000.jpg?1507153582
+    :width: 49%
 
 
 Subdivision artifacts and problems
