@@ -144,8 +144,8 @@ Even while the character is stylized and seems very smooth, it uses a denser mes
     :width: 49%
 
 
-Subdivision artifacts and problems
-==================================
+Subdivision artifacts, problems and how to solve them
+=====================================================
 
 Subdivision might hard to spot pinching and bumps. While these aren't that bad in the viewport, they will show their ugly side when rendered, especially in shiny or reflective materials. In a game pipeline, they will show up in normalmaps baked in a high-to-low poly workflow. There are different techniques to spot and prevent or minimize those problems, but all of them have to be a concious effort by the modeler.
 
@@ -167,41 +167,57 @@ Settings:
 .. note::
     Matcaps, especially Zebra-Matcaps, can be a faster way to check your model. Sadly they are not implemented in Maya yet and you need to use a plugin if you want to use Matcaps in the maya viewport. You can find a plugin to use the `blender matcaps <https://blenderbeginner.readthedocs.io/en/latest/_downloads/757b9959c91f808804e02a03769746f8/subd_matcaps.zip>`__ here: `Maya Matcap Plugin <https://www.artstation.com/artwork/8lrk2n>`_
 
-Spreading loops
----------------
 
 Terminating loops
 -----------------
 
+Using the techniques explained in `Edge termination and rerouting loops`_ you will be able to end an edge loop before it interferes with another part of your shape. Terminating loops early is a good technique to keep your mesh clean from the clutter created by edges used to hold a far off detail. Best places to terminate edges are either flat surfaces where subdivison artifacts won't appear or hard to see nooks and crannies of your model.
+
+
+Spreading loops
+---------------
+
+An edges 'sharpness' or creasing is defined by how far the neighbouring edges are apart. Adding detail on one end of the model might lead to edges that create unwanted pinching in another part of the shape. If you are not able to terminate them in a pleasing manner before they interfere with your shape, spacing them more uniformly will help you create a smooth surface.
+
+You can eiter use the transform tools and the 'edge' transform constraint setting or the **Slide Edge Tool** found in *Edit Mesh -> Slide Edge* to space your edges by hand. You might also be lucky in using the **Edit Edge Flow** Tool found in *Edit Mesh -> Edit Edge Flow*.
+
+.. image:: ./images/spreadEdges_nowire.png
+    :width: 49%
+
+.. image:: ./images/spreadEdges_wire.png
+    :width: 49%
+
 Adding enough geo - Cylinders and rounded surfaces
 --------------------------------------------------
 
+Especially with cylinders, there might only be the option of adding more spans to your source object to support your detail when subdivided. Cylinders and rounded surfaces are notorious for creating visible subdivision artifacts - often unsolveable even by the best topology imaginable. Adding spans and using them as your holding edges can help hiding the artifacts subdivision might produce.
 
-Common modeling techniques
-==========================
 
-Adding geo to create details
-----------------------------
+.. Common modeling techniques
+.. ==========================
 
-Edge termination on flat surfaces
----------------------------------
+.. Adding geo to create details
+.. ----------------------------
 
-Create ( round ) holes
-----------------------
+.. Edge termination on flat surfaces
+.. ---------------------------------
 
-Creating holding edges
-----------------------
- * While extruding
- * With bevel
+.. Create ( round ) holes
+.. ----------------------
 
-Using quick cut to solve topology problems
-------------------------------------------
+.. Creating holding edges
+.. ----------------------
+..  * While extruding
+..  * With bevel
 
-Split mesh for new topology
----------------------------
+.. Using quick cut to solve topology problems
+.. ------------------------------------------
 
-Subdividing the mesh for smaller details
-----------------------------------------
+.. Split mesh for new topology
+.. ---------------------------
 
-General approach to fix artifacts
----------------------------------
+.. Subdividing the mesh for smaller details
+.. ----------------------------------------
+
+.. General approach to fix artifacts
+.. ---------------------------------
