@@ -40,8 +40,9 @@ and excercise your newly learned skills.
     Design/L2_PipelineOverview
     Design/L3_DesignPrinicplesPrimer
     Design/L4_GestaltPrinciples
+    Design/L5_Light
 .. Design/L7_CamerasAndBlocking
-.. Design/L8_Light
+    
 
 .. toctree::
     :maxdepth: 1
