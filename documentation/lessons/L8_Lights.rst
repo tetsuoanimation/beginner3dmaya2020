@@ -13,18 +13,14 @@ Light Types
 
 Skylight / Physical Sky
 =======================
-The `Arnold Skydome Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Ai+Skydome+Light>`__ 
-simulates light from an infinite sphere around the scene. You can use this with a flat color, 
-HDRI light enviroments or the `Physical Sky <https://docs.arnoldrenderer.com/display/A5AFMUG/Physical+Sky>`__
+The `Arnold Skydome Light <https://docs.arnoldrenderer.com/display/A5AFMUG/Ai+Skydome+Light>`__ simulates light from an infinite sphere around the scene. You can use this with a flat color, HDRI light enviroments or the `Physical Sky <https://docs.arnoldrenderer.com/display/A5AFMUG/Physical+Sky>`__
 that simulates how a real sky would light your scene.
 
-You can create a Skydome light by going to **Arnold -> Lights -> Skydome Light**. This will create 
-a white skydome. You can adjust brightness and colors in the attribute editor.
+You can create a Skydome light by going to **Arnold -> Lights -> Skydome Light**. This will create a white skydome. You can adjust brightness and colors in the attribute editor.
 
 .. image:: ./images/createSkydome.png
 
-To create a physical Sky, go to **Arnold -> Lights -> Pyhsical Sky**. This will create a physical
-sky that lets you change the color and light direction by modifying sun height and position.
+To create a physical Sky, go to **Arnold -> Lights -> Pyhsical Sky**. This will create a physical sky that lets you change the color and light direction by modifying sun height and position.
 
 .. image:: ./images/createPhysSky.png
 
@@ -49,9 +45,7 @@ Check out the Arnold Manual for more  Information on the different light types:
 
 .. note::
     Lights in Arnold have two values to control the lights power, *Intensity* and *Exposure*.
-    The only difference here is that *exposure* works like a real light would work: Increasing 
-    the power value by one will output double the amount of light.
-    *Intensity* will increase the output in a linear fashion.
+    The only difference here is that *exposure* works like a real light would work: Increasing the power value by one will output double the amount of light. *Intensity* will increase the output in a linear fashion.
 
 ***************
 Managing Lights
