@@ -30,6 +30,9 @@ and excercise your newly learned skills.
     lessons/L3_BasicModeling
     lessons/L4_ModelingForDesign
     lessons/L5_ModelingForProduction
+    lessons/L6_Materials
+    lessons/L7_UVs
+    lessons/L8_Lights
 
 .. toctree::
     :maxdepth: 1
