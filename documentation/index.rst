@@ -33,6 +33,7 @@ and excercise your newly learned skills.
     lessons/L6_Materials
     lessons/L7_UVs
     lessons/L8_Lights
+    lessons/L9_Rigging
 
 .. toctree::
     :maxdepth: 1

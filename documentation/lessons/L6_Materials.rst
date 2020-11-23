@@ -143,3 +143,50 @@ You can find them in the documentation:
     * `Thin Film <https://docs.arnoldrenderer.com/display/A5AFMUG/Thin+Film>`__
 
 
+********
+Textures
+********
+
+You can assign a texture map to *any* shader slot in the material. This makes it possible to set up different materials in one shader.
+
+Images vs. Data Textures
+========================
+
+While any channel will accept any image, there are differences on how the data is handled and how your image needs to be set up. Since Maya's texturing pipeline is heavily colormanaged we need to make sure to plug in the correct data, even if Maya selects the correct settings based on the channel most of the time.
+
+The simple question is: *Will the colors in the image be seen in the final render?*
+
+    * **Yes:**    This texture is most likely a color image and needs to be colormanaged
+    * **No:**     This texture is most likely data and we are only interested in the per-pixel-values, not the color. 
+
+.. note::
+    | While data-'images' will most likely be greyscale and contain a single value per pixel, there are cases in which the data-'image' is a colorimage. In that case, it might either contain a vector per pixel, as in i.e. normalmaps or it might be a combination of multiple greyscale images. In such cases, each channel of this image is a greyscale data-'image' that got combined into a single image to save on memory. You can get this data out by using the node editor or hypershade to connect the single color channels to their attributes.
+    | In both cases, you have to make sure these images are **not** colormanaged my Maya by setting the colorspace in the fileNode to '*raw*'.
+
+    .. image:: ./images/imageColorSpace.png
+    
+
+Assinging Textures
+==================
+
+1. Open the Material Attributes in the Attribute Editor and find the attribute you want to add a texture to, for example 'Color'. - Click the small checkerboard icon.
+
+    .. image:: ./images/textureSlot.png
+
+2. From the 'Create Render Node' menu that opens up choose one of the texture render nodes available - if you want to add an image, choose '*File*'
+
+    .. image:: ./images/createRenderNodeMenu.png
+
+3. In the image file node, click the folder button to add your texture image
+
+    .. image:: ./images/fileNode.png
+
+
+*********************************
+Complex Node-Based Texture Setups
+*********************************
+
+You can use Maya's node-system to set up complex shader networks to procedurally generate a large number of textures.
+
+.. hint::
+    All images contain the 4 channels **Red**, **Green**, **Blue** and **Alpha**. These channels hold a **single float from 0 (Black) to 1 (White) per pixel** - all numbers inbetween are represented as different shades of grey. Mixing images (no matter which program) will *always* use math with these values to calculate the resulting value.
