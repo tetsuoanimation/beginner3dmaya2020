@@ -50,11 +50,56 @@ Sometimes it is a good idea to show more channels than the basic ones. It could,
 Custom Attributes
 -----------------
 
-Connecting Attributes
----------------------
+To make your rig easy to control, switch IK-FK, Visibility or other things, you can add custom attributes to your controllers.
+To add an Attribute go to the Channelbox and choose *Edit > Add Attribute*. In the Add Attribute Window, you can set up your attribute by naming it, chosing a data type and setting a minimum and maximum.
 
-Set Driven Keys
----------------
+.. image:: ./images/addAttribute.png
+
+.. note::
+    To use your custom attributes you need to connect them to their target values in the Connection Editor or Node Editor.
+
+Connecting Attributes
+=====================
+
+To connect attributes, you can use two direct and one keyable way: The Connection Editor or the visual Node Editor to connect attributes 1:1 and Set Driven Keys to connect attributes via an animation curve.
+
+Connecting attributes with the Connection Editor
+------------------------------------------------
+
+Open the Connection Editor from *Windows > General Editors > Connection Editor* or from the Channelbox's *Edit > Connection Editor*. Select your source object and click 'Reload Left' to load the object into the source side. Then select your target object and click 'Reload Right' to load that object into the target side of the Connection Editor.
+You can click any single attribute on the source side and any number of matching attributes on the target side to connect them. Attributes that are connected to each other will now be shown with a blue background when the source attribute gets selected. Other connected attributes will be shown in italic type.
+
+.. image:: ./images/connectionEditor.png
+
+.. hint::
+    The Connection Editor only allows to connect matching data types. When clicking an attribute on the source side, matching datatypes on the target side will be shown in bold.
+
+Find out more in the documentation:
+
+    * `The Connection Editor <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-2622D368-1DD5-45BA-9560-93626A5751FD>`_
+    * `Connecting Nodes With The Connection Editor <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-92F35EC2-35BF-49AB-8CDE-9DE922EA85A1>`_
+
+Connecting attributes in the Node Editor
+
+The Node Editor can be used to build complex node networks. Find out more in the manual:
+
+    * `Using the Node Editor <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-383D6D2A-DE9A-4764-9DE0-6514718A1578>`_
+    * `The Node Editor <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-23277302-6665-465F-8579-9BC734228F69>`_
+    * `Displaying Connections <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-A2A74347-EDBD-406D-954E-99DD1D12782D>`_
+    * `Connect Nodes with connection lines <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-C6E5588F-40A4-4B1E-9C02-A29DA9A4650F>`_
+    * `Quick connect nodes <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-591E9EB3-7B11-456D-92C2-0A6B470079FC>`_
+    * `Disconnecting nodes <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-3D144BA5-2EAC-45C1-84A2-0E2D7013654B>`_
+
+
+Using Set Driven Keys to connect attributes
+-------------------------------------------
+
+Check out the official manual to learn more:
+
+    * `Driven Keys Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-2C048635-CDD2-4CF7-820D-A032204C8CE8>`_
+    * `Driven Keys Window Overview <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-D2B1C7EF-F177-4B0E-9E41-B479CFF2AFD4>`_
+    * `Use Driven Keys to connect attriutes <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-F5429279-8EDB-449C-9E8D-4B5C0210757D>`_
+    * `Edit Driven Key Relationships in the Graph Editor <https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-E5CA3420-D286-4256-82D3-F148EA4A01DA>`_
 
 Constraints
 ===========
